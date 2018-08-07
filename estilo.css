@@ -1,24 +1,77 @@
 body{
-    margin: 0;
-    background-color: aqua;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
     font-family: 'Kirang Haerang', cursive;
 }
 
-h1, h2{
-    color: darkgrey;
+h1, h2, nav{
+    color: black;
     text-align: center;
     font-weight: 800;
 }
 
 p{
+    color: white;
     margin-left: 10px;
 }
 
 button{
-    border: solid blue 2px;
+    border: solid black 2px;
     background-color: white;
-    border-radius:10%;
-    padding: 10px;
+    border-radius: 10cm;
+    padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: black;
 }
+
+
+#menu1{
+    text-align: center;
+    padding: 5px;
+    background: gray;
+    border-radius: 20cm;
+    border: solid black 3px;
+    height: 25px;
+}
+
+.menu1 img{
+    height: 100%;
+    width: 30px;
+    margin-left: 0px;
+    float: left;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+#menu{
+    background: gray;
+    border-radius: 20cm;
+    border: solid black 3px;
+}
+
+#img{
+    border-radius: 10%;
+}
+
+.menu1 a{
+    text-decoration: none;
+    margin: 10%;
+    color: black;   
+}
+
+#footer img{
+    height: 100%;
+    width: 30px;
+    margin-right: 0px;
+    float: right;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+#footer{
+    background: gray;
+    border-radius: 20cm;
+    border: solid black 3px;
+}
+
